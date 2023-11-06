@@ -1,7 +1,69 @@
-:root {
-  --bg: #282c34;
-  --header: #fff;
-  --link: #61dafb;
-  --text: hsla(0, 0%, 100%, 0.88);
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
 }
+
+/* Apply a background color to the entire page */
+body {
+  background-color: #35c2e9;
+}
+
+/* Style the header */
+.header {
+  background-color: #000000;
+  color: #d5cbcb;
+  text-align: center;
+  padding: 30px;
+
+}
+
+.header h1 {
+  font-size: 37px;
+}
+
+.header h2 {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #3f0c55;
+  color: #07dc00;
+  padding: 5px;
+  text-align: center;
+}
+
+.nav-link {
+  color: #e4b294;
+  text-decoration: none;
+  margin: 0 133px;
+}
+
+/* Style the container for the content */
+.container {
+  max-width: 999px;
+  margin: 0 auto;
+  padding: 45px;
+  background-color: #da5f5484;
+  color: #0e0749ef;
+}
+
+/* Style links */
+a {
+  color: #0cff61;
+  text-decoration: line;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #7c9a0f;
+}
+
+/* Add your custom styles below */
 
